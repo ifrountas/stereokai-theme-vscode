@@ -1,0 +1,26 @@
+{
+    "name": "stereokai-theme",
+    "displayName": "Stereokai Theme",
+    "description": "Create stereokai theme for VS Code editor",
+    "version": "0.0.1",
+    "publisher": "frountas",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Stereokai Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Stereokai Theme-color-theme.json"
+            }
+        ]
+    },
+    "repository" : {
+        "type": "git",
+        "url" : "https://github.com/ifrountas/stereokai-theme-vscode"
+    }
+}
